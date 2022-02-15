@@ -20,6 +20,10 @@ public class EmployeeCalculation {
 		int	fullDayHour=8;
 		int	DailyEmpWage=((wagePerHr*fullDayHour));
 	    System.out.println(DailyEmpWage + " is the Daily wage of an Employee");
+	    System.out.println("Calculation of Daily Employee wage for a Part time Employee");
+	    int partTimeHour=4;
+	    int DailyEmpWagePartTime=(wagePerHr*partTimeHour);
+	    System.out.println(DailyEmpWagePartTime + " is the Daily wage of a Part time employee");
 	}
 
 }
