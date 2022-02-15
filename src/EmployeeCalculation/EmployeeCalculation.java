@@ -15,6 +15,11 @@ public class EmployeeCalculation {
 		{
 			System.out.println("Employee is absent");
 		}
+		System.out.println("Calculation of Daily Employee wage");
+		int wagePerHr=20;
+		int	fullDayHour=8;
+		int	DailyEmpWage=((wagePerHr*fullDayHour));
+	    System.out.println(DailyEmpWage + " is the Daily wage of an Employee");
 	}
 
 }
