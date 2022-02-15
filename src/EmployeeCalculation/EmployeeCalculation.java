@@ -33,6 +33,12 @@ public class EmployeeCalculation {
 	    	System.out.println("Employee is present and the daily wage is " + DailyEmpWage );
 	    	break;
 	    }
+	    System.out.println("Calculating wages for a month");
+	    int wagesPerMonth=(DailyEmpWage*20);
+	    System.out.println("Employee wages for a month is  "+  wagesPerMonth);
+	    
+	    
+	    
 	}
 
 }
