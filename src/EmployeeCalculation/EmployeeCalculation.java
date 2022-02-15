@@ -24,6 +24,15 @@ public class EmployeeCalculation {
 	    int partTimeHour=4;
 	    int DailyEmpWagePartTime=(wagePerHr*partTimeHour);
 	    System.out.println(DailyEmpWagePartTime + " is the Daily wage of a Part time employee");
+	    switch (randomValue)
+	    {
+	    case 0:
+	    	System.out.println("Employee is absent and there is no wages for today");
+	    	break;
+	    case 1:
+	    	System.out.println("Employee is present and the daily wage is " + DailyEmpWage );
+	    	break;
+	    }
 	}
 
 }
